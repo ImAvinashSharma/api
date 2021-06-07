@@ -1,5 +1,8 @@
 {
   "name": "api",
+  "scripts": {
+    "start": "node server"
+  },
   "dependencies": {
     "express": "^4.17.1"
   }

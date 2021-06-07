@@ -3,7 +3,7 @@ const app = express();
 
 const PORT = 3200;
 app.get("/", (req, res) => {
-  res.json("sadfsd");
+  res.json({ msg: "Hey" });
 });
 
 app.listen(PORT, () => {
