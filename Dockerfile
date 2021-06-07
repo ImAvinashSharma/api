@@ -1,4 +1,4 @@
-FROM node:16-slim
+FROM node:current-alpine3.13
 WORKDIR /app
 COPY package.json /app
 RUN npm install
